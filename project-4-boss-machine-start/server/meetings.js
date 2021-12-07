@@ -3,6 +3,7 @@ const meetingsRouter = require('express').Router();
 module.exports = meetingsRouter;
 
 const {
+    addToDatabase,
     createMeeting,
     getAllFromDatabase,
     deleteAllFromDatabase,
